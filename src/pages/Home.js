@@ -39,6 +39,7 @@ const Home = () => {
         <SocialNetwork />
         <div className="home-main">
           <div className="main-content">
+            <h3>Discover 10 projects I liked to realize</h3>
             <motion.h1 drag onDragEnd   dragConstraints={{ left: -250, right: 950, top: -200, bottom: 250 }}>
               Dev JavaScript
             </motion.h1>

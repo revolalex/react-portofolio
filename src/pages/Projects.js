@@ -55,7 +55,76 @@ export const Project4 = () => {
         <Navigation />
         <Logo />
         <Project projectNumber={3} />
-        <ButtonsBottom left={"/project-3"} right={"/contact"} />
+        <ButtonsBottom left={"/project-3"} right={"/project-5"} />
+      </div>
+    </main>
+  );
+};
+
+export const Project5 = () => {
+  return (
+    <main>
+      <Mouse />
+      <div className="project">
+        <Navigation />
+        <Logo />
+        <Project projectNumber={4} />
+        <ButtonsBottom left={"/project-4"} right={"/project-6"} />
+      </div>
+    </main>
+  );
+};
+
+export const Project6 = () => {
+  return (
+    <main>
+      <Mouse />
+      <div className="project">
+        <Navigation />
+        <Logo />
+        <Project projectNumber={5} />
+        <ButtonsBottom left={"/project-5"} right={"/project-7"} />
+      </div>
+    </main>
+  );
+};
+
+export const Project7 = () => {
+  return (
+    <main>
+      <Mouse />
+      <div className="project">
+        <Navigation />
+        <Logo />
+        <Project projectNumber={6} />
+        <ButtonsBottom left={"/project-6"} right={"/project-8"} />
+      </div>
+    </main>
+  );
+};
+
+export const Project8 = () => {
+  return (
+    <main>
+      <Mouse />
+      <div className="project">
+        <Navigation />
+        <Logo />
+        <Project projectNumber={7} />
+        <ButtonsBottom left={"/project-7"} right={"/project-9"} />
+      </div>
+    </main>
+  );
+};
+export const Project9 = () => {
+  return (
+    <main>
+      <Mouse />
+      <div className="project">
+        <Navigation />
+        <Logo />
+        <Project projectNumber={8} />
+        <ButtonsBottom left={"/project-8"} right={"/contact"} />
       </div>
     </main>
   );
