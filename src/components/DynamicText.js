@@ -1,12 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect} from "react";
 
 const DynamicText = () => {
-  let array = ["Vue.js", "React.js", "Node.js", "API", "Database", "Axios", "i18n", "Bootstrap", "Tailwind" ];
-  let wordIndex = 0;
-  let letterIndex = 0;
+
 
   useEffect(() => {
     const target = document.getElementById("text-target");
+    let array = ["Vue.js", "React.js", "Node.js", "API", "Database", "Axios", "i18n", "Bootstrap", "Tailwind" ];
+    let wordIndex = 0;
+    let letterIndex = 0;
 
     const createLetter = () => {
       const letter = document.createElement("span");
@@ -39,7 +40,7 @@ const DynamicText = () => {
             loop();
           }, 2000);
         }
-      }, 100);
+      }, 80);
     };
     loop();
   }, []);
