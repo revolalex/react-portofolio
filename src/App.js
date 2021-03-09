@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Switch, Route, useLocation, useHistory, Redirect } from "react-router-dom";
 import Home from "./pages/Home";
-import { Project1, Project2, Project3, Project4, Project5, Project6, Project7, Project8, Project9 } from "./pages/Projects";
+import { Project1, Project2, Project3, Project4, Project5, Project6, Project7, Project8, Project9, Project10 } from "./pages/Projects";
 import Contact from "./pages/Contact";
 import { AnimatePresence } from "framer-motion";
 
@@ -52,8 +52,17 @@ const App = () => {
         case url + "project-6":
           wheelRouter("project-7", "project-5");
           break;
-          case url + "project-7":
-            wheelRouter("contact", "project-6");
+        case url + "project-7":
+          wheelRouter("project-8", "project-6");
+          break;
+        case url + "project-8":
+          wheelRouter("project-9", "project-7");
+          break;
+        case url + "project-9":
+          wheelRouter("project-10", "project-8");
+          break;
+          case url + "project-10":
+            wheelRouter("contact", "project-8");
             break;
         case url + "contact":
           if (e.wheelDeltaY > 0) {
@@ -82,6 +91,7 @@ const App = () => {
         <Route path="/project-7" component={Project7} />
         <Route path="/project-8" component={Project8} />
         <Route path="/project-9" component={Project9} />
+        <Route path="/project-10" component={Project10} />
         <Route path="/contact" component={Contact} />
         <Redirect to='/' />
       </Switch>

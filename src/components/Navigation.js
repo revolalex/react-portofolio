@@ -13,31 +13,34 @@ const Navigation = () => {
         <li className="nav-portfolio">Portfolio
           <ul className="nav-projects">
             <NavLink to="/project-1" activeClassName="nav-active" className="hover">
-              <li>Projet 1</li>
+              <li>Project 1</li>
             </NavLink>
             <NavLink to="/project-2" activeClassName="nav-active" className="hover">
-              <li>Projet 2</li>
+              <li>Project 2</li>
             </NavLink>
             <NavLink to="/project-3" activeClassName="nav-active" className="hover">
-              <li>Projet 3</li>
+              <li>Project 3</li>
             </NavLink>
             <NavLink to="/project-4" activeClassName="nav-active" className="hover">
-              <li>Projet 4</li>
+              <li>Project 4</li>
             </NavLink>
             <NavLink to="/project-5" activeClassName="nav-active" className="hover">
-              <li>Projet 5</li>
+              <li>Project 5</li>
             </NavLink>
             <NavLink to="/project-6" activeClassName="nav-active" className="hover">
-              <li>Projet 6</li>
+              <li>Project 6</li>
             </NavLink>
             <NavLink to="/project-7" activeClassName="nav-active" className="hover">
-              <li>Projet 7</li>
+              <li>Project 7</li>
             </NavLink>
             <NavLink to="/project-8" activeClassName="nav-active" className="hover">
-              <li>Projet 8</li>
+              <li>Project 8</li>
             </NavLink>
             <NavLink to="/project-9" activeClassName="nav-active" className="hover">
-              <li>Projet 9</li>
+              <li>Project 9</li>
+            </NavLink>
+            <NavLink to="/project-10" activeClassName="nav-active" className="hover">
+              <li>Project 10</li>
             </NavLink>
           </ul>
         </li>

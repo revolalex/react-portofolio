@@ -88,4 +88,13 @@ export const projectsData = [
     img: "./assets/img/vuetodo.png",
     link: "https://todoalex.netlify.app/#/",
   },
+  {
+    id: 10,
+    title: "Auth Platform",
+    date: "Aout 2020",
+    languages: ["Vue", "Node", "MySQL", "JWT", "B-crypt"],
+    infos: "This authentification app crypt password and use token identification. You can create, register an user. A rgister user can add, delete and update a contact",
+    img: "./assets/img/auth.png",
+    link: "https://github.com/revolalex/my-authetification-platform",
+  }
 ];

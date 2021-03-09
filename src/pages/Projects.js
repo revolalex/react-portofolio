@@ -124,7 +124,21 @@ export const Project9 = () => {
         <Navigation />
         <Logo />
         <Project projectNumber={8} />
-        <ButtonsBottom left={"/project-8"} right={"/contact"} />
+        <ButtonsBottom left={"/project-8"} right={"/project-10"} />
+      </div>
+    </main>
+  );
+};
+
+export const Project10 = () => {
+  return (
+    <main>
+      <Mouse />
+      <div className="project">
+        <Navigation />
+        <Logo />
+        <Project projectNumber={9} />
+        <ButtonsBottom left={"/project-9"} right={"/contact"} />
       </div>
     </main>
   );
