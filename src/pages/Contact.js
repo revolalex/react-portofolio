@@ -44,7 +44,8 @@ const Contact = () => {
           <div className="address">
             <div className="content">
               <h4>Développer</h4>
-              <p>JavaScript full-stack</p>
+              <p    style={{ cursor: 'pointer' }}
+                className="clipboard">JavaScript full-stack</p>
             </div>
           </div>
           <div className="phone">
