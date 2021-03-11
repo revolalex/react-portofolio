@@ -67,6 +67,10 @@
       transform: translateX(70px);
       transition: .3s ;
       perspective: 500px;
+      // to test
+      display: flex;
+      flex-flow: wrap;
+      justify-content: space-between;
 
       li {
         transform: rotatey(30deg) scaleX(1.2);
