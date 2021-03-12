@@ -22,7 +22,7 @@ export const projectsData = [
   {
     id: 3,
     title: "Tutorial to-do-list",
-    date: "Fevrier 2020",
+    date: "Mars 2020",
     languages: ["HTML", "CSS", "JavaScript"],
     infos:
       "Design like a mobil App this javascipt To-Do use local storage. I made this tutorial when i was learning the basic of javascript. ths website is a tutorial to create an amazing to-do-list website with clock, localstorage and many tricks",
@@ -82,7 +82,7 @@ export const projectsData = [
   {
     id: 9,
     title: "To-Do-List",
-    date: "Février 2020",
+    date: "Mai 2020",
     languages: ["Vue", "Node", "MongoDB"],
     infos: "This to-do-list is a full stack project, all to-do are store in the collection by using Moongosse, and use it's hown API, if you complete all the to-do superman  will appear! ",
     img: "./assets/img/vuetodo.png",
