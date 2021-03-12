@@ -63,5 +63,10 @@
         font-size: 1.8rem;
       }
     }
+    .center{
+      @media screen and (max-width: 430px){
+        display: none;
+      }
+    }
   }
 }
