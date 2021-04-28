@@ -1,4 +1,6 @@
 import React from "react";
+import emailjs from 'emailjs-com';
+
 import { useState } from "react";
 
 const ContactForm = () => {
@@ -33,7 +35,7 @@ const ContactForm = () => {
     };
 
     if (name && isEmail() && message) {
-      const templateId = "template_oox5coz";
+      const templateId = "template_nxcj9ms";
 
       nameS.classList.remove("red");
       emailS.classList.remove("red");
@@ -66,8 +68,8 @@ const ContactForm = () => {
   const sendFeedback = (templateId, variables) => {
     let formMess = document.querySelector(".form-message");
 
-    window.emailjs
-      .send("service_jklklpo", "template_oox5coz", variables)
+    emailjs
+      .send("service_jklklpo", templateId, variables, "user_qVW1EQYpGrCCZBiy6lnqy")
       .then((res) => {
         formMess.innerHTML =
           "Message envoyé ! Nous vous recontacterons dès que possible.";
